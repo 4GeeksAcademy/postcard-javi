@@ -1,0 +1,75 @@
+body {
+	background: black;
+}
+
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 1000px;
+	margin: 0px 0px 0px 0px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left {
+	padding: 10px;
+}
+
+.body-left p:first-child {
+	margin-top: 0px;
+}
+
+.body-right {
+	padding: 10px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid grey;
+	padding: 2px;
+	margin-top: 10px;
+}
+
+.body-right input:first-child {
+	margin-top: 0px;
+}
+
+p {
+	font-size: medium;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h1 {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: gainsboro;
+	padding: 5px;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
